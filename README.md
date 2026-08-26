@@ -12,4 +12,9 @@ Binary Patching: Clear stale bytes using Fill with NOPs (Ctrl+9), then apply Pas
 
 Stack Restoration: Adjust ADD ESP, <offset> to match the total byte count of the pushed string, preserving register state before POPAD.
 
+
 Binary Export: Persist changes directly into PE executable via File -> Patch File.
+
+I lean finding kernel32 base from Red Team Note. Thank of them 
+
+https://www.ired.team/offensive-security/code-injection-process-injection/finding-kernel32-base-and-function-addresses-in-shellcode
